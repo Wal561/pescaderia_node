@@ -13,16 +13,5 @@ async function getUserByUsernameAndPassword(user, password) {
 
 }
 
-// pool.query('SELECT * FROM usuarios').then(function(resultados){
-//     console.log(resultados);
-// });
-
-// var obj = {
-//     usuario:'Pedro',
-//     password:'12345'
-// }
-// pool.query('INSERT INTO usuarios SET ?', [obj]).then(function(resultados){
-//     console.log(resultados)
-// });
 
 module.exports = { getUserByUsernameAndPassword }
